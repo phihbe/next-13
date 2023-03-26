@@ -1,3 +1,4 @@
+/* Variables start */
 :root {
 	--max-width: 1100px;
 	--border-radius: 12px;
@@ -110,7 +111,9 @@
 		--card-border-rgb: 200, 200, 200;
 	}
 }
+/* Variables end */
 
+/* Elements start */
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -135,7 +138,6 @@ body {
 		)
 		rgb(var(--background-start-rgb));
 }
-
 a {
 	color: var(--color-red) !important;
 	text-decoration: none;
@@ -146,3 +148,12 @@ a {
 		color-scheme: dark;
 	}
 }
+
+/* Elements end */
+
+/* Classes start */
+.main {
+	padding: 1rem;
+}
+
+/* Classes end */
