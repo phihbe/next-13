@@ -4,7 +4,6 @@
 	align-items: center;
 	flex-direction: column;
 	position: relative; /* for image */
-	padding: 2rem;
 	gap: 1rem;
 }
 .aboutParagraph {

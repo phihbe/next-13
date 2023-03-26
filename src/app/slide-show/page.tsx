@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./slideshow.module.css";
+import style from "./slide-show.module.css";
 import Image from "next/image";
 
 const page = () => {

@@ -14,7 +14,7 @@ const Navbar = () => {
 		},
 		{
 			text: "Images",
-			href: "/slideshow",
+			href: "/slide-show",
 		},
 	];
 	return (
