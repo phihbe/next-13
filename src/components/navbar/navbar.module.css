@@ -1,5 +1,8 @@
 .navbar {
 	display: flex;
+	right: 50%;
+	top: 0;
+	max-width: 1024px;
 	width: calc(100% - 8px);
 	flex-direction: row;
 	align-items: center;
@@ -11,15 +14,34 @@
 	margin: 4px;
 	top: 0;
 	position: fixed;
+	z-index: 10;
 }
-.navbarSpacer {
-	height: calc(4rem + 8px);
+@media screen and (min-width: 1024px) {
+	.navbar {
+		margin-left: -512px; /* Make left = center */
+		left: 50%; /* set left 50% across viewport */
+	}
 }
+
 @media screen and (max-width: 425px) {
 	.navbar {
 		padding: 1rem 0;
 	}
 }
+.navbarSpacer {
+	height: calc(4rem + 8px);
+}
+@media screen and (max-width: 768px) {
+	.navbarSpacer {
+		height: calc(102px + 8px);
+	}
+}
+@media screen and (max-width: 425px) {
+	.navbarSpacer {
+		height: calc(294px + 8px);
+	}
+}
+
 /* .navbar:not([data-scroll="0"]) {
 	position: fixed;
 	width: calc(100% - 8px);

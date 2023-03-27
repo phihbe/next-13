@@ -122,11 +122,9 @@
 
 html,
 body {
-	width: 100%;
-	margin: auto;
 	font-family: var(--font-mono);
-	max-width: 1024px;
 	overflow-x: hidden;
+	width: 100%;
 }
 
 body {
@@ -156,7 +154,9 @@ img {
 
 /* Classes start */
 .main {
+	max-width: 1024px;
 	padding: 1rem;
+	margin: auto;
 }
 
 /* Classes end */

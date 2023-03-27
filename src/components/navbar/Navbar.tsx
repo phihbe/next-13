@@ -23,6 +23,7 @@ const Navbar = () => {
 				<div className={style.navbarItems}>
 					<h1>Next 13 demo</h1>
 					<div className={style.navbarLinkSection}>
+						{/* Hide @425px and replace with hamburger menu */}
 						{links.map((link, index) => (
 							<NavbarItem key={index} text={link.text} href={link.href} />
 						))}
