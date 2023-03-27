@@ -142,6 +142,9 @@ a {
 	color: var(--color-red) !important;
 	text-decoration: none;
 }
+img {
+	user-select: none;
+}
 
 @media (prefers-color-scheme: dark) {
 	html {
